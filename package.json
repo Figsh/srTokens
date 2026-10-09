@@ -1,0 +1,33 @@
+{
+  "name": "string-range-tokens",
+  "version": "1.0.0",
+  "description": "Turn strings into per-letter token arrays and rebuild words, paths and URLs from index ranges. JS and TypeScript, zero dependencies.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./ts": "./src/index.ts",
+    "./package.json": "./package.json"
+  },
+  "files": ["src", "README.md", "LICENSE", "CONTRIBUTING.md"],
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test test/index.test.js"
+  },
+  "keywords": ["srtokens", "string", "tokens", "ranges", "slice", "substring", "typescript", "zero-dependency", "esm"],
+  "author": "Figsh Digital",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fscss-ttr/srTokens.git"
+  },
+  "bugs": { "url": "https://github.com/fscss-ttr/srTokens/issues" },
+  "homepage": "https://github.com/fscss-ttr/srTokens#readme"
+}
