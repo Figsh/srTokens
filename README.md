@@ -31,6 +31,14 @@ sub(toTokens('https://api.example.com/v1/users'), 23, 25, ...ranges);
 
 The TypeScript source lives in `src/index.ts` and is also exported as `string-range-tokens/ts` for runtimes that run TS directly (Deno, Bun, Node with type stripping).
 
+
+### CDN: jsdelivr
+
+```js
+  import { toTokens, sub, build, plan, scatter, gather } from 'https://cdn.jsdelivr.net/npm/string-range-tokens@1.0.0/src/index.js';
+
+```
+
 ## Usage
 
 ```js
@@ -43,6 +51,8 @@ sub(t, 23, 25, [26, 31]);     // "/v1/users"
 sub(t, -5, -1);               // "users"
 build(t, [0, 4], [23, 25]);   // "https/v1"
 ```
+
+
 
 ### API
 
