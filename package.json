@@ -21,13 +21,13 @@
     "test": "node --test test/index.test.js"
   },
   "keywords": ["srtokens", "string", "tokens", "ranges", "slice", "substring", "typescript", "zero-dependency", "esm"],
-  "author": "Figsh Digital",
+  "author": "Figsh",
   "license": "MIT",
   "engines": { "node": ">=18" },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fscss-ttr/srTokens.git"
+    "url": "git+https://github.com/Figsh/srTokens.git"
   },
-  "bugs": { "url": "https://github.com/fscss-ttr/srTokens/issues" },
-  "homepage": "https://github.com/fscss-ttr/srTokens#readme"
+  "bugs": { "url": "https://github.com/Figsh/srTokens/issues" },
+  "homepage": "https://github.com/Figsh/srTokens#readme"
 }
